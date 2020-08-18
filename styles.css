@@ -111,8 +111,11 @@ body {
         padding: 2rem;
     }
     .carousel-caption .btn {
-        font-size: 5%;
+        font-size: 85%;
         padding: 8px 14px;
+    }
+    .carousel {
+        margin-top: 20px;
     }
 }
 
@@ -129,12 +132,21 @@ body {
         padding-bottom: 1rem;
     }
     .carousel-caption .btn {
-        font-size: 55%;
+        font-size: 70%;
         padding: 8px 14px;
     }
     .social a {
         font-size: 2.5rem;
         padding: 1.2rem;
+    }
+    .carousel {
+        margin-top: 20px;
+    }
+    .carousel-row {
+        margin: 1px;
+    }
+    .connect {
+        margin-top: 25px;
     }
 }
 
@@ -142,6 +154,9 @@ body {
     /* body {
         background-size: cover;
     } */
+    .carousel {
+        margin-top: 25px;
+    }
     .carousel-caption {
         top: 40%;
     }
