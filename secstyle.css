@@ -1,0 +1,29 @@
+.broken-image {
+    border: 1px solid blue;
+    width: 40px;
+    height: 400px;
+    margin-right: 5px;
+    background-image: url("images/4.jpg");
+    bottom: 0;
+}
+
+.col-first {
+    height: 550px;
+}
+
+.col-third {
+    height: 500px;
+}
+
+.row {
+    margin: 2px;
+}
+
+.broken-row img {
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
