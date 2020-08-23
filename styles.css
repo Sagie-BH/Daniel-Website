@@ -115,6 +115,16 @@ body {
     z-index: 1;
 }
 
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    text-align: right;
+}
+
+.my-4 {
+    background-color: grey;
+}
+
 
 /*---Media Queries --*/
 
@@ -180,13 +190,16 @@ body {
         top: 40%;
     }
     .carousel-caption h1 {
+        visibility: hidden;
         font-size: 100%;
     }
     .carousel-caption h3 {
         font-size: 55%;
+        visibility: hidden;
     }
     .carousel-caption .btn {
-        font-size: 25%;
+        margin-top: 120px;
+        font-size: 70%;
         padding: 4px 8px;
     }
     /* .carousel-indicators {
@@ -198,6 +211,12 @@ body {
     }
     #profile-img {
         width: 112px;
+    }
+    #about-title {
+        font-size: 14px;
+    }
+    #about-details {
+        font-size: 12px;
     }
 }
 
