@@ -24,14 +24,6 @@ body {
     padding-left: 180px;
 }
 
-.navbar-nav {
-    padding-right: 50px;
-}
-
-.navbar.nav li {
-    padding-right: 200px;
-}
-
 .nav-link {
     font-size: 1.1em !important;
 }
